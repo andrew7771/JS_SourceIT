@@ -13,7 +13,7 @@ function initMatrix (h, w) {
 	}
 	return matr;
 }
-
+   
 
 function borderСlockwise (matrix) {	
 	var leftSide = [];
