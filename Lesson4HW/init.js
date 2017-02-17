@@ -115,17 +115,17 @@ function triangleSecondaryDiagonal (matrix) {
 
 //output
 
-var matrix = initMatrix(5,5);
-console.table(matrix);
+// var matrix = initMatrix(5,5);
+// console.table(matrix);
 
-var result = borderСlockwise(matrix);
-console.log(result);
+// var result = borderСlockwise(matrix);
+// console.log(result);
 
-var result = counterСlockWise(matrix);
-console.log(result);
+// var result = counterСlockWise(matrix);
+// console.log(result);
 
-var result = triangleTheMainDiagonal(matrix);
-console.log(result);
+// var result = triangleTheMainDiagonal(matrix);
+// console.log(result);
 
-var result = triangleSecondaryDiagonal(matrix);
-console.log(result);
+// var result = triangleSecondaryDiagonal(matrix);
+// console.log(result);
