@@ -53,3 +53,16 @@ function checkVal (val) {
 })();
 
 
+(function show (argument) {
+	for (var i = 1; i <= 10; i++) {
+		(function calc(index) {
+			setTimeout(function() {
+ 			console.log(
+     		'%c' + index ,
+     		'color: green; font-weight: bold;');
+ 		}, 1000 * i); 
+		})(i); 		
+ 	}
+})();
+
+
